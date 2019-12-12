@@ -1,0 +1,59 @@
+div.mdl-layout__header-row {
+    padding-left: 50px;
+    background-color: forestgreen;
+}
+
+span.mdl-layout-title {
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 40px;
+
+}
+
+nav.mdl-navigation a {
+    font-family: 'Lalezar', cursive;
+    font-size: 20px;
+}
+
+div.mdl-layout__drawer {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    span.mdl-layout-title {
+        font-size: 20px;
+        border: 1px solid white;
+
+    }
+
+    nav.mdl-navigation a {
+        font-family: 'Lalezar', cursive;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+    nav.mdl-navigation a:nth-child(2) {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    nav.mdl-navigation a:nth-child(2) {
+        display: block;
+    }
+
+    span.mdl-layout-title {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 420px) {
+    nav.mdl-navigation a:nth-child(2) {
+        display: none;
+    }
+}

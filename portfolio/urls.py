@@ -16,7 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 # from django.urls import path
+from portfolio.apps.main.views.main import HomeTemplateView
 
 urlpatterns = [
+    url('', HomeTemplateView.as_view()),
     url('admin/', admin.site.urls),
 ]
