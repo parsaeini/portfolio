@@ -1,11 +1,13 @@
-{% extends "portfolio/base.html" %}
+{% extends "portfolio/portfolio.html" %}
 {% load static %}
 
 {% block internal_css %}
   <link rel="stylesheet" href="{% static "main/css/header.css" %}">
+  <link rel="stylesheet" href="{% static "main/css/top.css" %}">
 {% endblock %}
 
-{% block body %}
+{% block content %}
   {% include 'main/includes/header.html' %}
-
+  {% include 'main/includes/top.html' %}
+  {% include 'main/includes/contact-me.html' %}
 {% endblock %}

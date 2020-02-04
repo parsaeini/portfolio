@@ -1,0 +1,9 @@
+{% extends "portfolio/base.html" %}
+
+{% block body %}
+<div id="outer-wrapper" class="mdl-layout mdl-js-layout">
+    <div class="container row" id="main-wrapper">
+        <div class="content" id="content-wrapper">{% block content %}{% endblock %}</div>
+    </div>
+</div>
+{% endblock %}
