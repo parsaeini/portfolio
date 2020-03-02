@@ -1,5 +1,5 @@
 .top {
-    background-color: darkgreen;
+    background-color: #323232;
     width: 100%;
     height: 700px;
 }
@@ -27,5 +27,13 @@ div.intro p.name {
 @media screen and (max-width: 960px) {
     .intro  {
         margin: 0 110px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .intro  {
+        padding-top: 80px;
+    }
+    div.intro p.name{
+        margin-bottom: 27px;
     }
 }
