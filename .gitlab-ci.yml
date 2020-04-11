@@ -1,0 +1,7 @@
+stages:
+  - test
+
+all_tests:
+  stage: test
+  script:
+   - bash ./tests_gitlab.sh
