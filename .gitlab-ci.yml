@@ -1,7 +1,6 @@
 stages:
   - test
 
-all_tests:
+test:
   stage: test
-  script:
-   - bash ./tests_gitlab.sh
+  script: echo "Testing the app"
