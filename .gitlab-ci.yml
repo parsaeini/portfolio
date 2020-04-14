@@ -3,4 +3,6 @@ stages:
 
 test:
   stage: test
-  script: sh ./test_gitlab.sh
+  script:
+    - chmod +x ./tests_gitlab.sh
+    - sh ./tests_gitlab.sh
