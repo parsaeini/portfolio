@@ -4,5 +4,5 @@ stages:
 test:
   stage: test
   script:
-    - chmod +x ./tests_gitlab.sh
-    - sh ./tests_gitlab.sh
+    - coverage run --branch --parallel-mode manage.py test
+    - coverage combine
