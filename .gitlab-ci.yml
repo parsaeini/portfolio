@@ -4,5 +4,6 @@ stages:
 test:
   stage: test
   script:
-    - python manage.py test
+    - coverage run --branch --parallel-mode manage.py test
+    - coverage combine
 
