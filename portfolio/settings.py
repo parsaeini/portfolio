@@ -18,7 +18,7 @@ SECRET_KEY = 'jl$ayj(5e6y^dh#byrmpomvgkhrc#kzf4d7=@5xe^u3rfvbyxg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = get_env_var('DEBUG', False)
 
-ALLOWED_HOSTS = ['37.152.178.20', 'localhost']
+ALLOWED_HOSTS = ['37.152.178.20', '127.0.0.1']
 
 # Application definition
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))

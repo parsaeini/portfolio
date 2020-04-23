@@ -1,6 +1,6 @@
 div.mdl-layout__header-row {
     padding-left: 50px;
-    background-color: #4a5560;
+    background-color: #fff;
 }
 
 span.mdl-layout-title {
@@ -12,10 +12,17 @@ span.mdl-layout-title {
 
 }
 
-nav.mdl-navigation a {
+nav.mdl-navigation a.mdl-navigation__link.link,
+span.mdl-layout-title {
+    color: red;
     font-family: 'Lalezar', cursive;
     font-size: 20px;
 }
+span.mdl-layout-title{
+    border: 1px solid red
+}
+
+
 
 div.mdl-layout__drawer {
     display: none;
@@ -25,7 +32,6 @@ div.mdl-layout__drawer {
     span.mdl-layout-title {
         font-size: 20px;
         border: 1px solid white;
-
     }
 
     nav.mdl-navigation a {
@@ -52,6 +58,7 @@ div.mdl-layout__drawer {
     }
 
 }
+
 @media screen and (max-width: 420px) {
     nav.mdl-navigation a:nth-child(2) {
         display: none;

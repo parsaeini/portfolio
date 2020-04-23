@@ -1,7 +1,12 @@
 {% extends "portfolio/base.html" %}
 
 {% block body %}
-    <div class="mdl-layout mdl-js-layout">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    {% include 'portfolio/includes/header.html' %}
+    <main class="mdl-layout__content">
+      <div class="page-content">
         {% block content %}{% endblock %}
-    </div>
+      </div>
+    </main>
+  </div>
 {% endblock %}

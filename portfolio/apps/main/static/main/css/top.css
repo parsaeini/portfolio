@@ -1,12 +1,12 @@
 .top {
-    background-color: #323232;
+    background-image: linear-gradient(to bottom right, #500000, #cc0000);
     width: 100%;
     height: 700px;
 }
 
 .intro {
     margin: 0 auto;
-    padding: 250px 0;
+    padding: 160px 0;
     font-family: 'Jomhuria', cursive;
 }
 
@@ -25,15 +25,26 @@ div.intro p.name {
 }
 
 @media screen and (max-width: 960px) {
-    .intro  {
-        margin: 0 110px;
+    .intro {
+        margin: 0 80px;
     }
 }
+
 @media screen and (max-width: 360px) {
-    .intro  {
-        padding-top: 80px;
+    .top {
+        height: 550px;
     }
-    div.intro p.name{
+
+    .intro {
+        padding-top: 55px;
+    }
+
+    .intro p {
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    div.intro p.name {
         margin-bottom: 27px;
     }
 }

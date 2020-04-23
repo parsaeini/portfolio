@@ -2,13 +2,12 @@
 {% load static %}
 
 {% block internal_css %}
-  <link rel="stylesheet" href="{% static "main/css/header.css" %}">
+  {{ block.super }}
   <link rel="stylesheet" href="{% static "main/css/top.css" %}">
   <link rel="stylesheet" href="{% static "main/css/contact-me.css" %}">
 {% endblock %}
 
 {% block content %}
-  {% include 'main/includes/header.html' %}
   {% include 'main/includes/top.html' %}
   {% include 'main/includes/contact-me.html' %}
 {% endblock %}
