@@ -5,9 +5,11 @@
   {{ block.super }}
   <link rel="stylesheet" href="{% static "main/css/top.css" %}">
   <link rel="stylesheet" href="{% static "main/css/contact-me.css" %}">
+  <link rel="stylesheet" href="{% static "main/css/job-history.css" %}">
 {% endblock %}
 
 {% block content %}
   {% include 'main/includes/top.html' %}
+  {% include 'main/includes/job-history.html' %}
   {% include 'main/includes/contact-me.html' %}
 {% endblock %}

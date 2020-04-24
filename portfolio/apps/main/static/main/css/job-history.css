@@ -1,0 +1,44 @@
+.job-history .content {
+    margin: 80px auto;
+}
+
+.job-history .content .mdl-card {
+    margin:20px auto;
+}
+.job-history .content .mdl-card__title{
+    height: 150px;
+}
+.job-history .content .mdl-card__title img {
+    display: inline-block;
+    max-width: 120px;
+
+}
+.job-history .content .mdl-card__title h2 {
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.job-history .content .tenthaward .mdl-card__title h2 {
+    line-height: 120px;
+}
+
+.job-history .content .mdl-card__supporting-text {
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 600;
+}
+
+.job-history .content .mdl-card__actions {
+    font-size: 1.3rem;
+    padding: 30px;
+    text-align: justify;
+    border-top: 5px solid rgb(215, 215, 215);
+}
+.job-history .content .date {
+    text-align: center;
+}
