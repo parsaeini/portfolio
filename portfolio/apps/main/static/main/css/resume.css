@@ -1,0 +1,43 @@
+.resume {
+    background-image: linear-gradient(to bottom right, #500000, #cc0000);
+}
+
+.resume .mdl-grid {
+    width: 800px;
+}
+
+.resume .content {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+.resume img {
+    display: block;
+    margin: 30px auto;
+    opacity: 0.5;
+}
+
+.resume img:hover {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 839px) {
+    .resume .mdl-grid {
+        width: auto;
+    }
+
+    .resume img {
+        opacity: 1;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .resume .content {
+        font-size: 1.7rem;
+    }
+
+}
