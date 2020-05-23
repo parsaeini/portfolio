@@ -1,5 +1,11 @@
+.job-history h3 {
+    text-align: center;
+    font-family: 'Jomhuria', cursive;
+    margin: 0;
+    padding-top: 24px;
+}
 .job-history .content {
-    margin: 80px auto;
+    margin: 20px auto;
 }
 
 .job-history .content .mdl-card {
